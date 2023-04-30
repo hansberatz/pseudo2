@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PSEUDO2</title>
+    <style>
+      /* Estilos para el contenedor */
+      .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Estilos para los cuadros */
+      .cuadro {
+        width: calc(100% / 3);
+        height: 150px; /* Cambiar la altura a 150px */
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Estilos para cada cuadro */
+      #azul {
+        background-color: blue;
+      }
+
+      #rojo {
+        background-color: red;
+      }
+
+      #verde {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <!-- Cuadro azul -->
+      <div id="azul" class="cuadro">1</div>
+
+      <!-- Cuadro rojo -->
+      <div id="rojo" class="cuadro">2</div>
+
+      <!-- Cuadro verde -->
+      <div id="verde" class="cuadro">3</div>
+    </div>
+  </body>
+</html>
